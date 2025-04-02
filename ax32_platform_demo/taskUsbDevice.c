@@ -328,6 +328,8 @@ static int usbDeviceMsgSensorChange(winHandle handle, uint32 parameNum, uint32 *
 	if (keyState == KEY_PRESSED)
 	{
 		sensorChange();
+		dispLayerUninit(DISP_LAYER_VIDEO);
+		dispLayerUninit(DISP_LAYER_OSD0);
 	}
 	return 0;
 }

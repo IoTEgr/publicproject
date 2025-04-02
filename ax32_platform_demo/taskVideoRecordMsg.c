@@ -123,6 +123,26 @@ static int videoKeyMsgExit(winHandle handle, uint32 parameNum, uint32 *parame)
 		keyState = parame[0];
 	if (keyState == KEY_PRESSED)
 	{
+		if (task_video_Get_Status() == MEDIA_STAT_START)
+		{
+
+			if (winIsVisible(winItem(handle, VIDEO_STATE_ID)))
+			{
+				winSetVisible(winItem(handle, VIDEO_STATE_ID), false);
+			}
+
+			task_record_stop();
+			configSet(CONFIG_ID_SCREENSAVE, screensave);
+#if 1
+			SysCtrl.photo_task = 1;
+			UserInterface captureAnimation;
+
+			ANIMATION(captureAnimation, LEFTBOTTOM2RIGHTUPPER)
+			photo_animation_effect(captureAnimation, 1);
+
+			SysCtrl.photo_task = 0;
+#endif
+		}
 		taskStart(TASK_MAIN_MENU, 0);
 		if (0 == SysCtrl.cartoon_mode)
 		{

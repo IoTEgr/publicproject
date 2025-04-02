@@ -56,7 +56,7 @@
 #define DEV_LCD_R61505V 29
 #define DEV_LCD_ST7789P3 30
 
-#define DEV_LCD DEV_LCD_ST7789P3
+#define DEV_LCD DEV_LCD_NV3030B
 #define LCD_OP_SECTION SECTION(".lcd_res.struct")
 #define LCD_INTI_TAB_SECTION SECTION(".lcd_res.init_tab")
 
