@@ -1,241 +1,242 @@
 #include "cmos_sensor.h"
 
-#if DEV_SENSOR_SIV100B > 0
+#if DEV_SENSOR_SIV100B >0
 
 SENSOR_INIT_SECTION const unsigned char SIV100BInitTable[]=
 {
-    0x3,0x02,
-
-    0x04,0x03, //mirror 03 00
-
-    0x05,0x07,	
-    0x06,0x00,		
-    0x07,0x00,		
-    0x08,0x00,		
-    0x09,0x00,		
-    0x0a,0x00,		
-    0x0b,0x00,		
-    0x0c,0x00,		
-    0x0d,0x00,		
-    0x0e,0x00,		
-    0x0f,0x00,
-    0x10,0x13,		
-    0x11,0x04,	
-    0x12,0x0a,	
-    0x13,0x1f,		
-    0x14,0x17,		
-    0x15,0x00,	
-    0x16,0x89,		
-    0x17,0x60,		
-    0x18,0x16,		
-    0x19,0x00,	
-    0x1a,0x00,	
-    0x1b,0x90,		
-    0x1c,0x00,	
-    0x1d,0x00,	
-    0x1e,0x00,	
-    0x1f,0x52,		
-    0x20,0x00, //0X00	
-    0x21,0xA0, 	//00
-    0x22,0x7C,//61		
-    0x23,0x00, // 0X00	
-    0x24,0xA0, //00	
-    0x25,0x7D,//67		
-//    0x30,0x0, //0x1f4	
-//    0x31,0x96,		
-//    0x32,0x24,	
-    0x34,0x7D,	
-    0x33,0x05,		
+	0X3, 0X04, 
+	0X4, 0x0, //rotate
+	0X5, 0X7,	
+	0X6, 0X0,		
+	0X7, 0X0,		
+	0X8, 0X0,		
+	0X9, 0X0,		
+	0Xa, 0X0,		
+	0Xb, 0X0,		
+	0Xc, 0X0,		
+	0Xd, 0X0,		
+	0Xe, 0X0,		
+	0Xf, 0X0,
+	0X10, 0X13,		
+	0X11, 0X4, 	
+	0X12, 0Xa, 	
+	0X13, 0X1f,		
+	0X14, 0X17,		
+	0X15, 0X0, 	
+	0X16, 0X89,		
+	0X17, 0X60,		
+	0X18, 0X16,		
+	0X19, 0X0, 	
+	0X1a, 0X0, 	
+	0X1b, 0X90,		
+	0X1c, 0X0, 	
+	0X1d, 0X0, 	
+	0X1e, 0X0, 	
+	0X1f, 0X52,	
 	
-    0x35,0x7D,		
-    0x36,0x7d,		
-    0x37,0x7d,	
-    0x38,0x00,	
-    0x39,0x00,	
-    0x3a,0x00,	
-    0x3b,0x00,	
-    0x3c,0x00,	
-    0x3d,0x00,	
-    0x3e,0x00,	
-    0x3f,0x00,	
-    0x40, 0x81,
-    0x41, 0x8A,
-    0x42, 0x78,
-    0x43, 0xC0,
-    0x44, 0x38,	//0x48
-    0x45, 0x28,
-    0x46, 0x08,
-    0x47, 0x15,
-    0x48, 0x1E,
-    0x49, 0x13,
-    0x4A, 0x63,
-    0x4B, 0xC4,
-    0x4C, 0x3C,
-    0x4E, 0x17,
-    0x4F, 0x8A,
-    0x50, 0x94,
-    0x5A, 0x00,
-//    0x51,0x60,		
-//    0x52,0x90,		
-//    0x53,0x70,
-//    0x5a,0x0,	
-//    0x5b,0x2,	
-//    0x5c,0x33,		
-//    0x5d,0xf8,		
-//    0x5e,0x0,	
-//    0x5f,0x0,	
-    0x60, 0xC0,	//0xC8
-    0x61, 0x88,	//0x88
-    0x62, 0x01,
-    0x63, 0x80,
-    0x64, 0x80,
-    0x65, 0xD0,
-    0x66, 0x8C,
-    0x67, 0xe8,
-    0x68, 0x8B,
-    0x69, 0x8A,
-    0x6A, 0x73,
-    0x6B, 0xa0,	//0x95
-    0x6C, 0x70,
-    0x6D, 0x88,
-    0x6E, 0x77,
-    0x6F, 0x46,
-    0x70, 0xEA,
-    0x71, 0x60,
-    0x72, 0x05,
-    0x73, 0x02,
-    0x74, 0x0a,
-    0x75, 0x0F,
-    0x76, 0x20,
-    0x77, 0xB7,
-    0x78, 0xb5,
-    0x80,0xaf,		
-    0x81,0x19,		
-    0x82,0x3d,		
-    0x83,0x0,	
-    0x84,0xff,		
-    0x85,0x0,	
-    0x86,0xa1,		
-    0x87,0x00, 
-    0x88,0x24,		
-    0x89,0xf,	
-    0x8a,0x80,		
-    0x8b,0x80,		
-    0x8c,0x80,		
-    0x8d,0x80,		
-    0x8e,0x0,	
-    0x8f,0x0,	
-    0x90,0x0,	
-    0x91,0x0,	
-    0x92,0x44,		
-    0x93,0x10,		
-    0x94,0x20,		
-    0x95,0x18,		
-    0x96,0x10,		
-    0x97,0x20,		
-    0x98,0x20,		
-    0x99,0x18,		
-    0x9a,0x50,		
-    0x9b,0x0,	
-    0x9c,0xd,	
-    0x9d,0xd,	
-    0x9e,0xd,	
-    0x9f,0xd,	
-    0xa0,0x10,		
-    0xa1,0x10,		
-    0xa2,0x10,		
-    0xa3,0x10,		
-    0xa4,0xcc,		
-    0xa5,0xcc,		
-    0xa6,0xcc,		
-    0xa7,0xcb,		
-    0xa8,0xa9,		
-    0xa9,0x43, //0x45 	navy20150729	
-    0xaa,0x45, //0x47	navy20150729	
-    0xab,0x11,		
-    0xac,0x13,		
-    0xad,0x0,	
-    0xae,0x0,	
-    0xaf,0x98,		
-    0xb0,0x90,
-    0xB1, 0x00,
-    0xB2, 0x0D,	//0x08
-    0xB3, 0x16,	//0x10
-    0xB4, 0x2A,	//0x23
-    0xB5, 0x48,	//0x45
-    0xB6, 0x64,	//0x62
-    0xB7, 0x79,	//0x78
-    0xB8, 0x8C,	//0x8A
-    0xB9, 0x9C,	//0x9B
-    0xBA, 0xAA,	
-    0xBB, 0xB6,	//0xB8
-    0xBC, 0xCB,	//0xCE
-    0xBD, 0xDE,	//0xE2
-    0xBE, 0xF0,	//0xF3
-    0xBF, 0xF8,	//0xFB
-    0xC0, 0xFF,
-/* Color Matrix */
-    0xC1, 0x3A,	//0x3D
-    0xC2, 0xCB,	//0xC6
-    0xC3, 0xFB,	//0xFD
-    0xC4, 0x10,
-    0xC5, 0x21,
-    0xC6, 0x10,
-    0xC7, 0xF3,
-    0xC8, 0xBD,
-    0xC9, 0x50,
-    0xca,0x90,		
-    0xcf,0x20,		
-    0xd0,0x20,		
-    0xd1,0x28,		
-    0xd2,0x86,		
-    0xd3,0x0,
-    0xcb,0x40,		
-    0xcc,0x28,//0x20		
-    0xcd,0x6,//0x06 denoise center	
-    0xce,0x6,//0x06 
-    0xd4,0x12,//0x16		
-    0xd5,0x16,//0x14//0x12 //Cr	
-    0xd6,0x18,//0x16 //0x16//Cb		
-    0xd7,0x04,//0x08	
-    0xd8,0x0,	
-    0xd9,0x0,	
-    0xda,0x0,	
-    0xdb,0xff,		
-    0xdc,0x0,	
-    0xdd,0xff,		
-    0xde,0x0,	
-    0xdf,0xff,		
-    0xe0,0x0,	
-    0xE1, 0x27,	//0x24
-    0xE2, 0x8A,	//0x58
-    0xe3,0x0,	
-    0xe4,0x0,	
-    0xe5,0x0,	
-    0xe6,0x44,		
-    0xf0,0x24,		
-    0xf1,0x0,	
-    0xf2,0x80,		
-    0xf3,0x0,	
-    0xf4,0xe0,		
-    0x03,0xc5,
-    0x7a,0xa8,
-    0x7b,0xb0,
-    0x7c,0x80,
-    0x40,0x80,
-	
-	
--1,-1};
-
+	//0X20, ((HBLANK_BASE>>8)<<4)|(VBLANK_BASE>>8), //[9:8] 60hz
+	//0X21, HBLANK_BASE & 0xff, //hb[7:0] 60zh
+	//0X22, VBLANK_BASE & 0xff, //vb[7:0] 60hz
+	//0X23, ((HBLANK_BASE>>8)<<4)|(VBLANK_BASE>>8),	//50hz
+	//0X24, HBLANK_BASE & 0xff,	//50hz
+	//0X25, VBLANK_BASE & 0xff,	//50hz
+	0X33, 0X5,		
+	0X34, 0X7D,		
+	0X35, 0X7D,		
+	0X36, 0X7d,		
+	0X37, 0X7d,	
+	0X38, 0X0, 	
+	0X39, 0X0, 	
+	0X3a, 0X0, 	
+	0X3b, 0X0, 	
+	0X3c, 0X0, 	
+	0X3d, 0X0, 	
+	0X3e, 0X0, 	
+	0X3f, 0X0, 	
+	0X40, 0X80,		
+	0x41, 0x78,
+	0X42, 0X7f,		
+	0X43, 0Xc0,		
+	0X44, 0X48,		
+	0X45, 0X28,		
+	0X46, 0X8, 	
+	0X47, 0X15,		
+	0X48, 0X14,		
+	0X49, 0Xc, 	
+	0X4a, 0X42,		
+	0X4b, 0Xc4,		
+	0X4c, 0X3c,		
+	0X4d, 0X50,		
+	0X4e, 0X17,		
+	0X4f, 0X8a,		
+	0X50, 0X94,
+	0X51, 0X60,		
+	0X52, 0X90,		
+	0X53, 0X70,
+	0X5a, 0X0, 	
+	0X5b, 0X2, 	
+	0X5c, 0X33,		
+	0X5d, 0Xf8,		
+	0X5e, 0X0, 	
+	0X5f, 0X0, 	
+	0X60, 0Xc3,		
+	0X61, 0X88,		
+	0X62, 0X1, 	
+	0X63, 0X80,		
+	0X64, 0X80,		
+	0X65, 0Xd2,		
+	0X66, 0X83,		
+	0X67, 0Xd6,		
+	0X68, 0X80,		
+	0X69, 0X8a,		
+	0X6a, 0X70,		
+	0X6b, 0X90,		
+	0X6c, 0X70,		
+	0X6d, 0X88,		
+	0X6e, 0X77,		
+	0X6f, 0X46,		
+	0X70, 0Xd8,		
+	0X71, 0X40,	
+	0X72, 0X5, 	
+	0X73, 0X2, 	
+	0X74, 0Xc, 
+	0X75, 0X10, 		
+	0X76, 0X60, 		
+	0X77, 0Xaf,		
+	0X78, 0X8d,		
+	0X79, 0X0, 	
+	0X7a, 0Xb5,	
+	0X7b, 0Xa3,		
+	0X7c, 0X80,		
+	0X7d, 0X0, 	
+	0X7e, 0X0, 	
+	0X7f, 0X41,		
+	0X80, 0Xaf,		
+	0X81, 0X19,		
+	0X82, 0X3d,		
+	0X83, 0X0, 	
+	0X84, 0Xff,		
+	0X85, 0X0, 	
+	0X86, 0Xa1,		
+	0X87, 0X00, 
+	0X88, 0X24,		
+	0X89, 0Xf, 	
+	0X8a, 0X80,		
+	0X8b, 0X80,		
+	0X8c, 0X80,		
+	0X8d, 0X80,		
+	0X8e, 0X0, 	
+	0X8f, 0X0, 	
+	0X90, 0X0, 	
+	0X91, 0X0, 	
+	0X92, 0X44,		
+	0X93, 0X10,		
+	0X94, 0X20,		
+	0X95, 0X18,		
+	0X96, 0X10,		
+	0X97, 0X20,		
+	0X98, 0X20,		
+	0X99, 0X18,		
+	0X9a, 0X50,		
+	0X9b, 0X0, 	
+	0X9c, 0Xd, 	
+	0X9d, 0Xd, 	
+	0X9e, 0Xd, 	
+	0X9f, 0Xd, 	
+	0Xa0, 0X10,		
+	0Xa1, 0X10,		
+	0Xa2, 0X10,		
+	0Xa3, 0X10,		
+	0Xa4, 0Xcc,		
+	0Xa5, 0Xcc,		
+	0Xa6, 0Xcc,		
+	0Xa7, 0Xcb,		
+	0Xa8, 0Xa9,		
+	0Xa9, 0X43,
+	0Xaa, 0X45,	
+	0Xab, 0X11,		
+	0Xac, 0X13,		
+	0Xad, 0X0, 	
+	0Xae, 0X0, 	
+	0Xaf, 0X98,		
+	0Xb0, 0X90,
+	0Xb1, 0X0, 	
+	0Xb2, 0Xb, 	
+	0Xb3, 0X16,		
+	0Xb4, 0X2a,		
+	0Xb5, 0X4a,		
+	0Xb6, 0X64,		
+	0Xb7, 0X7b,		
+	0Xb8, 0X8f,		
+	0Xb9, 0Xa0,		
+	0Xba, 0Xae,		
+	0Xbb, 0Xbb,		
+	0Xbc, 0Xd0,		
+	0Xbd, 0Xe2,		
+	0Xbe, 0Xf2,		
+	0Xbf, 0Xf9,		
+	0Xc0, 0Xff,
+	0Xc1, 0X3a,		
+	0Xc2, 0Xcb,		
+	0Xc3, 0Xfb,		
+	0Xc4, 0X10,		
+	0Xc5, 0X21,		
+	0Xc6, 0X10,		
+	0Xc7, 0Xf3,		
+	0Xc8, 0Xbd,		
+	0Xc9, 0X50,		
+	0Xca, 0X90,		
+	0Xcf, 0X20,		
+	0Xd0, 0X20,		
+	0Xd1, 0X28,		
+	0Xd2, 0X86,		
+	0Xd3, 0X0, 
+	0Xcb, 0X40,		
+	0Xcc, 0X28,		
+	0Xcd, 0X6,	
+	0Xce, 0X6,
+	0Xd4, 0X12,		
+	0Xd5, 0X16,	
+	0Xd6, 0X18,	
+	0Xd7, 0X04,
+	0Xd8, 0X0, 	
+	0Xd9, 0X0, 	
+	0Xda, 0X0, 	
+	0Xdb, 0Xff,		
+	0Xdc, 0X0, 	
+	0Xdd, 0Xff,		
+	0Xde, 0X0, 	
+	0Xdf, 0Xff,		
+	0Xe0, 0X0, 	
+	0Xe1, 0X2a,		
+	0Xe2, 0X8b,
+	0Xe3, 0X0, 	
+	0Xe4, 0X0, 	
+	0Xe5, 0X0, 	
+	0Xe6, 0X44,		
+	0Xf0, 0X24,		
+	0Xf1, 0X0, 	
+	0Xf2, 0X80,		
+	0Xf3, 0X0, 	
+	0Xf4, 0Xe0,		
+	0x03,0xc5,
+	0x7a,0xa8,
+	0x7b,0xb0,
+	0x7c,0x80,
+	0x40,0x80,
+	-1,-1
+};
 static void SIV100B_rotate(u32 r)
 {
 	unsigned char buf[2];
-	buf[0] = 0x04;		//0',180'
-	buf[1] = 0x00|(r<<0);
-	//	sensor_iic_enable();
-	//	sensor_iic_info();
-	sensor_iic_write(buf);
-	// sensor_iic_disable();
+	buf[0] = 0x04;
+
+	buf[1] = (r<<0);
+//	sensor_iic_enable();
+//	sensor_iic_info();		
+	sensor_iic_write(buf);	
+
+//	 sensor_iic_diable();	
 
 }
 
@@ -244,40 +245,38 @@ static void SIV100B_hvblank(u32 h,u32 v)
 
 	u32 i;
 	const u8 t[][2] = {
-		{0x01,h & 0xff},//0x6a//0xde //HB[7:0]
-		{0x02,v & 0xff},  //0x0c //VB[7:0]
-		{0x0f,((v >> 8)<<4)|(h >> 8)} //{0x0f,0x00}, //VB/HB [11:8]
+		{0X20, ((h>>8)<<4)|(v>>8)},
+		{0X21, h & 0xff},
+		{0X22, v & 0xff},
 	};
-	//	sensor_iic_enable();
-	//	sensor_iic_info();	
-	for(i=0;i<3;i++)
+
+//	sensor_iic_enable();
+//	sensor_iic_info();	
+
+	for(i=0;i<6;i++)
 		sensor_iic_write((u8 *)&t[i][0]);
-	// sensor_iic_disable();
-
+//	 sensor_iic_diable();			
+//	return (h<<16)|v;
 }
-
-SENSOR_OP_SECTION const Sensor_Op_t SIV100B_cmd= 
-{ 
+SENSOR_OP_SECTION const Sensor_Op_t siv100b_cmd= 
+{
 	.typ = CSI_TYPE_YUV422,
 	.pixelw = 640,
-	.pixelh= 480, 
+	.pixelh= 480,
 	.hsyn = 1,
 	.vsyn = 1,
-	.AVDD = SYS_VOL_V3_0,
-	.DVDD = SYS_VOL_V1_5,
-	.VDDIO = SYS_VOL_V2_8,
-	.colrarray = 2,//0:_RGRG_ 1:_GRGR_,2:_BGBG_,3:_GBGB_
+	.rduline = 0,//
+	.colrarray = 2, //YCBYCR
 	.rotate_adapt = {0},
-	.hvb_adapt = {42000000,1120,0,0,0xff,25,0},
-	
-//	.hvb_adapt = {21000000,1120,0,0,0xff,20,0},
-	.mclk = 24000000,
-	.p_fun_adapt = {NULL,NULL,NULL},
+	.hvb_adapt = {0x6a,0x20,0x6a,0x20},
+	. mclk = 24000000,
+	.p_fun_adapt = {SIV100B_rotate,SIV100B_hvblank,NULL},
 };
 
-SENSOR_HEADER_ITEM_SECTION const Sensor_Init_t SIV100B_init=
+
+SENSOR_HEADER_ITEM_SECTION const Sensor_Init_t siv100b_init=
 {
-	.sensor_struct_addr =	(u32 *)&SIV100B_cmd, 
+	.sensor_struct_addr =	(u32 *)&siv100b_cmd,
 	.sensor_struct_size = sizeof(Sensor_Op_t),
 	.sensor_init_tab_adr =	(u32 *)SIV100BInitTable,     
 	.sensor_init_tab_size = sizeof(SIV100BInitTable),
@@ -286,8 +285,9 @@ SENSOR_HEADER_ITEM_SECTION const Sensor_Init_t SIV100B_init=
 	.r_cmd            =	0x67,               
 	.addr_num         =	0x01,               
 	.data_num         =	0x01,               
-	.id_reg           =	0x01                
+	.id_reg           =	0x01,               
 };
+
 
 #endif
 

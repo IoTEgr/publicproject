@@ -86,13 +86,21 @@ Objects2=$(IntermediateDirectory)/lcd_ax32xx_lcd.c$(ObjectSuffix) $(Intermediate
 	$(IntermediateDirectory)/wav_pcm.c$(ObjectSuffix) $(IntermediateDirectory)/wav_ulaw.c$(ObjectSuffix) $(IntermediateDirectory)/wav_wav.c$(ObjectSuffix) 
 
 Objects3=$(IntermediateDirectory)/stream_stream.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_cmos_sensor.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_BF2013.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_BF3703.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC0307.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC0308.c$(ObjectSuffix) \
-	$(IntermediateDirectory)/cmos_sensor_SENSOR_GC0309.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC0328.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_OV7670.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SP0838.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SP0A18.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC0329.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SIV100B.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_tft_lcd.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_ili9328.c$(ObjectSuffix) \
-	$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789v.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8352c.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_9225G.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030b.c$(ObjectSuffix) $(IntermediateDirectory)/nvfs_nvfs.c$(ObjectSuffix) $(IntermediateDirectory)/Maxlib_max_user.c$(ObjectSuffix) $(IntermediateDirectory)/Maxlib_uiDraw.c$(ObjectSuffix) $(IntermediateDirectory)/std_misc.c$(ObjectSuffix) $(IntermediateDirectory)/std_std_math.c$(ObjectSuffix) $(IntermediateDirectory)/std_str.c$(ObjectSuffix) \
-	$(IntermediateDirectory)/res_ascii.c$(ObjectSuffix) $(IntermediateDirectory)/res_ascii_default.c$(ObjectSuffix) $(IntermediateDirectory)/res_ascii_default_draw.c$(ObjectSuffix) $(IntermediateDirectory)/res_R.c$(ObjectSuffix) $(IntermediateDirectory)/res_R_icon.c$(ObjectSuffix) $(IntermediateDirectory)/res_R_string.c$(ObjectSuffix) $(IntermediateDirectory)/res_unicode_font.c$(ObjectSuffix) $(IntermediateDirectory)/res_ascii_num3.c$(ObjectSuffix) $(IntermediateDirectory)/res_ascii_num3_draw.c$(ObjectSuffix) 
+	$(IntermediateDirectory)/cmos_sensor_SENSOR_GC0309.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC0328.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_OV7670.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SP0838.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SP0A18.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC0329.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SIV100B.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03after.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03front.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_BF20A6.c$(ObjectSuffix) \
+	$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3016.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1004.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1034.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1054.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1064.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1084.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_H42.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_H62.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_H63.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_H63P.c$(ObjectSuffix) \
+	$(IntermediateDirectory)/cmos_sensor_SENSOR_H65.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_H7640.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_HM1055.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_IT03A1.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_NT99141.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_NT99142.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_OV7725.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_OV7736.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_OV9710.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_OV9732.c$(ObjectSuffix) \
+	$(IntermediateDirectory)/cmos_sensor_SENSOR_SC030IOT.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SC1045.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SC1243.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SIV120B.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SIV121DS.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SP140A.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SP0718.c$(ObjectSuffix) $(IntermediateDirectory)/cmos_sensor_SENSOR_SP1409.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_tft_lcd.c$(ObjectSuffix) \
+	$(IntermediateDirectory)/tft_lcd_lcd_mcu_ili9328.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789v.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8352c.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_9225G.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030b.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_5420.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_gc9307.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_htf67337.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8352b.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8357b.c$(ObjectSuffix) \
+	$(IntermediateDirectory)/tft_lcd_lcd_mcu_ili9341.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_lgdp4532.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030a.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_r61505v.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_r61509v.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789_666format.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789P3.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789v2.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_rgb_ili8961.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9342c.c$(ObjectSuffix) \
+	$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9806e.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_rgb_jl_lcd.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_rgb_ota5182.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_rgb_st7282.c$(ObjectSuffix) $(IntermediateDirectory)/tft_lcd_lcd_rgb_st7701.c$(ObjectSuffix) $(IntermediateDirectory)/nvfs_nvfs.c$(ObjectSuffix) $(IntermediateDirectory)/Maxlib_max_user.c$(ObjectSuffix) $(IntermediateDirectory)/Maxlib_uiDraw.c$(ObjectSuffix) 
+
+Objects4=$(IntermediateDirectory)/std_misc.c$(ObjectSuffix) $(IntermediateDirectory)/std_std_math.c$(ObjectSuffix) \
+	$(IntermediateDirectory)/std_str.c$(ObjectSuffix) $(IntermediateDirectory)/res_ascii.c$(ObjectSuffix) $(IntermediateDirectory)/res_ascii_default.c$(ObjectSuffix) $(IntermediateDirectory)/res_ascii_default_draw.c$(ObjectSuffix) $(IntermediateDirectory)/res_R.c$(ObjectSuffix) $(IntermediateDirectory)/res_R_icon.c$(ObjectSuffix) $(IntermediateDirectory)/res_R_string.c$(ObjectSuffix) $(IntermediateDirectory)/res_unicode_font.c$(ObjectSuffix) $(IntermediateDirectory)/res_ascii_num3.c$(ObjectSuffix) $(IntermediateDirectory)/res_ascii_num3_draw.c$(ObjectSuffix) \
+	
 
 
 
-Objects=$(Objects0) $(Objects1) $(Objects2) $(Objects3) 
+Objects=$(Objects0) $(Objects1) $(Objects2) $(Objects3) $(Objects4) 
 
 ##
 ## Main Build Targets 
@@ -107,6 +115,7 @@ $(OutputFile): $(IntermediateDirectory)/.d $(Objects)
 	@echo $(Objects1) >> $(ObjectsFileList)
 	@echo $(Objects2) >> $(ObjectsFileList)
 	@echo $(Objects3) >> $(ObjectsFileList)
+	@echo $(Objects4) >> $(ObjectsFileList)
 	$(LinkerName) $(OutputSwitch)$(OutputFile) @$(ObjectsFileList) $(LibPath) $(Libs) $(LinkOptions)
 
 PostBuild:
@@ -1623,6 +1632,254 @@ $(IntermediateDirectory)/cmos_sensor_SENSOR_SIV100B.c$(DependSuffix): ../device/
 $(IntermediateDirectory)/cmos_sensor_SENSOR_SIV100B.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_SIV100B.c
 	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_SIV100B.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_SIV100B.c"
 
+$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03after.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_BF3a03after.c $(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03after.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_BF3a03after.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03after.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03after.c$(DependSuffix): ../device/cmos_sensor/SENSOR_BF3a03after.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03after.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03after.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_BF3a03after.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03after.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_BF3a03after.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03after.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_BF3a03after.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03front.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_BF3a03front.c $(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03front.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_BF3a03front.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03front.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03front.c$(DependSuffix): ../device/cmos_sensor/SENSOR_BF3a03front.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03front.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03front.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_BF3a03front.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03front.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_BF3a03front.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_BF3a03front.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_BF3a03front.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_BF20A6.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_BF20A6.c $(IntermediateDirectory)/cmos_sensor_SENSOR_BF20A6.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_BF20A6.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_BF20A6.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_BF20A6.c$(DependSuffix): ../device/cmos_sensor/SENSOR_BF20A6.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_BF20A6.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_BF20A6.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_BF20A6.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_BF20A6.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_BF20A6.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_BF20A6.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_BF20A6.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3016.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_BF3016.c $(IntermediateDirectory)/cmos_sensor_SENSOR_BF3016.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_BF3016.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3016.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3016.c$(DependSuffix): ../device/cmos_sensor/SENSOR_BF3016.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3016.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3016.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_BF3016.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_BF3016.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_BF3016.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_BF3016.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_BF3016.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1004.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_GC1004.c $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1004.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_GC1004.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1004.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1004.c$(DependSuffix): ../device/cmos_sensor/SENSOR_GC1004.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1004.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1004.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_GC1004.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1004.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_GC1004.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1004.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_GC1004.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1034.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_GC1034.c $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1034.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_GC1034.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1034.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1034.c$(DependSuffix): ../device/cmos_sensor/SENSOR_GC1034.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1034.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1034.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_GC1034.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1034.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_GC1034.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1034.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_GC1034.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1054.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_GC1054.c $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1054.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_GC1054.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1054.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1054.c$(DependSuffix): ../device/cmos_sensor/SENSOR_GC1054.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1054.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1054.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_GC1054.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1054.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_GC1054.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1054.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_GC1054.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1064.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_GC1064.c $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1064.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_GC1064.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1064.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1064.c$(DependSuffix): ../device/cmos_sensor/SENSOR_GC1064.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1064.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1064.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_GC1064.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1064.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_GC1064.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1064.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_GC1064.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1084.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_GC1084.c $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1084.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_GC1084.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1084.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1084.c$(DependSuffix): ../device/cmos_sensor/SENSOR_GC1084.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1084.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1084.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_GC1084.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_GC1084.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_GC1084.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_GC1084.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_GC1084.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H42.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_H42.c $(IntermediateDirectory)/cmos_sensor_SENSOR_H42.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_H42.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_H42.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H42.c$(DependSuffix): ../device/cmos_sensor/SENSOR_H42.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_H42.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_H42.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_H42.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H42.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_H42.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_H42.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_H42.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H62.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_H62.c $(IntermediateDirectory)/cmos_sensor_SENSOR_H62.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_H62.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_H62.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H62.c$(DependSuffix): ../device/cmos_sensor/SENSOR_H62.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_H62.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_H62.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_H62.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H62.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_H62.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_H62.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_H62.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H63.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_H63.c $(IntermediateDirectory)/cmos_sensor_SENSOR_H63.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_H63.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_H63.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H63.c$(DependSuffix): ../device/cmos_sensor/SENSOR_H63.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_H63.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_H63.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_H63.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H63.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_H63.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_H63.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_H63.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H63P.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_H63P.c $(IntermediateDirectory)/cmos_sensor_SENSOR_H63P.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_H63P.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_H63P.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H63P.c$(DependSuffix): ../device/cmos_sensor/SENSOR_H63P.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_H63P.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_H63P.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_H63P.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H63P.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_H63P.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_H63P.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_H63P.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H65.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_H65.c $(IntermediateDirectory)/cmos_sensor_SENSOR_H65.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_H65.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_H65.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H65.c$(DependSuffix): ../device/cmos_sensor/SENSOR_H65.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_H65.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_H65.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_H65.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H65.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_H65.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_H65.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_H65.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H7640.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_H7640.c $(IntermediateDirectory)/cmos_sensor_SENSOR_H7640.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_H7640.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_H7640.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H7640.c$(DependSuffix): ../device/cmos_sensor/SENSOR_H7640.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_H7640.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_H7640.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_H7640.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_H7640.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_H7640.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_H7640.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_H7640.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_HM1055.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_HM1055.c $(IntermediateDirectory)/cmos_sensor_SENSOR_HM1055.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_HM1055.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_HM1055.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_HM1055.c$(DependSuffix): ../device/cmos_sensor/SENSOR_HM1055.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_HM1055.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_HM1055.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_HM1055.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_HM1055.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_HM1055.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_HM1055.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_HM1055.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_IT03A1.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_IT03A1.c $(IntermediateDirectory)/cmos_sensor_SENSOR_IT03A1.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_IT03A1.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_IT03A1.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_IT03A1.c$(DependSuffix): ../device/cmos_sensor/SENSOR_IT03A1.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_IT03A1.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_IT03A1.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_IT03A1.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_IT03A1.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_IT03A1.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_IT03A1.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_IT03A1.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_NT99141.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_NT99141.c $(IntermediateDirectory)/cmos_sensor_SENSOR_NT99141.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_NT99141.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_NT99141.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_NT99141.c$(DependSuffix): ../device/cmos_sensor/SENSOR_NT99141.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_NT99141.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_NT99141.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_NT99141.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_NT99141.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_NT99141.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_NT99141.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_NT99141.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_NT99142.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_NT99142.c $(IntermediateDirectory)/cmos_sensor_SENSOR_NT99142.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_NT99142.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_NT99142.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_NT99142.c$(DependSuffix): ../device/cmos_sensor/SENSOR_NT99142.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_NT99142.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_NT99142.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_NT99142.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_NT99142.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_NT99142.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_NT99142.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_NT99142.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_OV7725.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_OV7725.c $(IntermediateDirectory)/cmos_sensor_SENSOR_OV7725.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_OV7725.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_OV7725.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_OV7725.c$(DependSuffix): ../device/cmos_sensor/SENSOR_OV7725.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_OV7725.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_OV7725.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_OV7725.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_OV7725.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_OV7725.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_OV7725.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_OV7725.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_OV7736.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_OV7736.c $(IntermediateDirectory)/cmos_sensor_SENSOR_OV7736.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_OV7736.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_OV7736.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_OV7736.c$(DependSuffix): ../device/cmos_sensor/SENSOR_OV7736.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_OV7736.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_OV7736.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_OV7736.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_OV7736.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_OV7736.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_OV7736.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_OV7736.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_OV9710.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_OV9710.c $(IntermediateDirectory)/cmos_sensor_SENSOR_OV9710.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_OV9710.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_OV9710.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_OV9710.c$(DependSuffix): ../device/cmos_sensor/SENSOR_OV9710.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_OV9710.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_OV9710.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_OV9710.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_OV9710.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_OV9710.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_OV9710.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_OV9710.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_OV9732.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_OV9732.c $(IntermediateDirectory)/cmos_sensor_SENSOR_OV9732.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_OV9732.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_OV9732.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_OV9732.c$(DependSuffix): ../device/cmos_sensor/SENSOR_OV9732.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_OV9732.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_OV9732.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_OV9732.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_OV9732.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_OV9732.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_OV9732.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_OV9732.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SC030IOT.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_SC030IOT.c $(IntermediateDirectory)/cmos_sensor_SENSOR_SC030IOT.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_SC030IOT.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_SC030IOT.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SC030IOT.c$(DependSuffix): ../device/cmos_sensor/SENSOR_SC030IOT.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_SC030IOT.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_SC030IOT.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_SC030IOT.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SC030IOT.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_SC030IOT.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_SC030IOT.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_SC030IOT.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SC1045.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_SC1045.c $(IntermediateDirectory)/cmos_sensor_SENSOR_SC1045.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_SC1045.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_SC1045.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SC1045.c$(DependSuffix): ../device/cmos_sensor/SENSOR_SC1045.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_SC1045.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_SC1045.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_SC1045.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SC1045.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_SC1045.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_SC1045.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_SC1045.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SC1243.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_SC1243.c $(IntermediateDirectory)/cmos_sensor_SENSOR_SC1243.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_SC1243.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_SC1243.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SC1243.c$(DependSuffix): ../device/cmos_sensor/SENSOR_SC1243.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_SC1243.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_SC1243.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_SC1243.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SC1243.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_SC1243.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_SC1243.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_SC1243.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SIV120B.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_SIV120B.c $(IntermediateDirectory)/cmos_sensor_SENSOR_SIV120B.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_SIV120B.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_SIV120B.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SIV120B.c$(DependSuffix): ../device/cmos_sensor/SENSOR_SIV120B.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_SIV120B.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_SIV120B.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_SIV120B.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SIV120B.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_SIV120B.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_SIV120B.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_SIV120B.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SIV121DS.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_SIV121DS.c $(IntermediateDirectory)/cmos_sensor_SENSOR_SIV121DS.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_SIV121DS.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_SIV121DS.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SIV121DS.c$(DependSuffix): ../device/cmos_sensor/SENSOR_SIV121DS.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_SIV121DS.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_SIV121DS.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_SIV121DS.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SIV121DS.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_SIV121DS.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_SIV121DS.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_SIV121DS.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SP140A.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_SP140A.c $(IntermediateDirectory)/cmos_sensor_SENSOR_SP140A.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_SP140A.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_SP140A.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SP140A.c$(DependSuffix): ../device/cmos_sensor/SENSOR_SP140A.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_SP140A.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_SP140A.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_SP140A.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SP140A.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_SP140A.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_SP140A.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_SP140A.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SP0718.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_SP0718.c $(IntermediateDirectory)/cmos_sensor_SENSOR_SP0718.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_SP0718.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_SP0718.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SP0718.c$(DependSuffix): ../device/cmos_sensor/SENSOR_SP0718.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_SP0718.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_SP0718.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_SP0718.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SP0718.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_SP0718.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_SP0718.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_SP0718.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SP1409.c$(ObjectSuffix): ../device/cmos_sensor/SENSOR_SP1409.c $(IntermediateDirectory)/cmos_sensor_SENSOR_SP1409.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/cmos_sensor/SENSOR_SP1409.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/cmos_sensor_SENSOR_SP1409.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SP1409.c$(DependSuffix): ../device/cmos_sensor/SENSOR_SP1409.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/cmos_sensor_SENSOR_SP1409.c$(ObjectSuffix) -MF$(IntermediateDirectory)/cmos_sensor_SENSOR_SP1409.c$(DependSuffix) -MM "../device/cmos_sensor/SENSOR_SP1409.c"
+
+$(IntermediateDirectory)/cmos_sensor_SENSOR_SP1409.c$(PreprocessSuffix): ../device/cmos_sensor/SENSOR_SP1409.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/cmos_sensor_SENSOR_SP1409.c$(PreprocessSuffix) "../device/cmos_sensor/SENSOR_SP1409.c"
+
 $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_st7789.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789.c$(DependSuffix)
 	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_st7789.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_st7789.c
@@ -1678,6 +1935,166 @@ $(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030b.c$(DependSuffix): ../device/tft
 
 $(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030b.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_nv3030b.c
 	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030b.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_nv3030b.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_5420.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_5420.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_5420.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_5420.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_5420.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_5420.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_5420.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_5420.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_5420.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_5420.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_5420.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_5420.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_5420.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_5420.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_gc9307.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_gc9307.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_gc9307.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_gc9307.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_gc9307.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_gc9307.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_gc9307.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_gc9307.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_gc9307.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_gc9307.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_gc9307.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_gc9307.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_gc9307.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_gc9307.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_htf67337.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_htf67337.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_htf67337.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_htf67337.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_htf67337.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_htf67337.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_htf67337.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_htf67337.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_htf67337.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_htf67337.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_htf67337.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_htf67337.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_htf67337.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_htf67337.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8352b.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_hx8352b.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8352b.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_hx8352b.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8352b.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8352b.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_hx8352b.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8352b.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8352b.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_hx8352b.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8352b.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_hx8352b.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8352b.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_hx8352b.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8357b.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_hx8357b.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8357b.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_hx8357b.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8357b.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8357b.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_hx8357b.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8357b.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8357b.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_hx8357b.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8357b.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_hx8357b.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_hx8357b.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_hx8357b.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_ili9341.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_ili9341.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_ili9341.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_ili9341.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_ili9341.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_ili9341.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_ili9341.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_ili9341.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_ili9341.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_ili9341.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_ili9341.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_ili9341.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_ili9341.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_ili9341.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_lgdp4532.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_lgdp4532.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_lgdp4532.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_lgdp4532.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_lgdp4532.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_lgdp4532.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_lgdp4532.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_lgdp4532.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_lgdp4532.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_lgdp4532.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_lgdp4532.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_lgdp4532.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_lgdp4532.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_lgdp4532.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030a.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_nv3030a.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030a.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_nv3030a.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030a.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030a.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_nv3030a.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030a.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030a.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_nv3030a.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030a.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_nv3030a.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_nv3030a.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_nv3030a.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_r61505v.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_r61505v.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_r61505v.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_r61505v.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_r61505v.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_r61505v.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_r61505v.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_r61505v.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_r61505v.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_r61505v.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_r61505v.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_r61505v.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_r61505v.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_r61505v.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_r61509v.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_r61509v.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_r61509v.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_r61509v.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_r61509v.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_r61509v.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_r61509v.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_r61509v.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_r61509v.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_r61509v.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_r61509v.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_r61509v.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_r61509v.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_r61509v.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789_666format.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_st7789_666format.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789_666format.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_st7789_666format.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789_666format.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789_666format.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_st7789_666format.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789_666format.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789_666format.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_st7789_666format.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789_666format.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_st7789_666format.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789_666format.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_st7789_666format.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789P3.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_st7789P3.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789P3.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_st7789P3.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789P3.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789P3.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_st7789P3.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789P3.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789P3.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_st7789P3.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789P3.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_st7789P3.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789P3.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_st7789P3.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789v2.c$(ObjectSuffix): ../device/tft_lcd/lcd_mcu_st7789v2.c $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789v2.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_mcu_st7789v2.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789v2.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789v2.c$(DependSuffix): ../device/tft_lcd/lcd_mcu_st7789v2.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789v2.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789v2.c$(DependSuffix) -MM "../device/tft_lcd/lcd_mcu_st7789v2.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789v2.c$(PreprocessSuffix): ../device/tft_lcd/lcd_mcu_st7789v2.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_mcu_st7789v2.c$(PreprocessSuffix) "../device/tft_lcd/lcd_mcu_st7789v2.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili8961.c$(ObjectSuffix): ../device/tft_lcd/lcd_rgb_ili8961.c $(IntermediateDirectory)/tft_lcd_lcd_rgb_ili8961.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_rgb_ili8961.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili8961.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili8961.c$(DependSuffix): ../device/tft_lcd/lcd_rgb_ili8961.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili8961.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili8961.c$(DependSuffix) -MM "../device/tft_lcd/lcd_rgb_ili8961.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili8961.c$(PreprocessSuffix): ../device/tft_lcd/lcd_rgb_ili8961.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_rgb_ili8961.c$(PreprocessSuffix) "../device/tft_lcd/lcd_rgb_ili8961.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9342c.c$(ObjectSuffix): ../device/tft_lcd/lcd_rgb_ili9342c.c $(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9342c.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_rgb_ili9342c.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9342c.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9342c.c$(DependSuffix): ../device/tft_lcd/lcd_rgb_ili9342c.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9342c.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9342c.c$(DependSuffix) -MM "../device/tft_lcd/lcd_rgb_ili9342c.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9342c.c$(PreprocessSuffix): ../device/tft_lcd/lcd_rgb_ili9342c.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9342c.c$(PreprocessSuffix) "../device/tft_lcd/lcd_rgb_ili9342c.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9806e.c$(ObjectSuffix): ../device/tft_lcd/lcd_rgb_ili9806e.c $(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9806e.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_rgb_ili9806e.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9806e.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9806e.c$(DependSuffix): ../device/tft_lcd/lcd_rgb_ili9806e.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9806e.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9806e.c$(DependSuffix) -MM "../device/tft_lcd/lcd_rgb_ili9806e.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9806e.c$(PreprocessSuffix): ../device/tft_lcd/lcd_rgb_ili9806e.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_rgb_ili9806e.c$(PreprocessSuffix) "../device/tft_lcd/lcd_rgb_ili9806e.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_jl_lcd.c$(ObjectSuffix): ../device/tft_lcd/lcd_rgb_jl_lcd.c $(IntermediateDirectory)/tft_lcd_lcd_rgb_jl_lcd.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_rgb_jl_lcd.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_rgb_jl_lcd.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_jl_lcd.c$(DependSuffix): ../device/tft_lcd/lcd_rgb_jl_lcd.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_rgb_jl_lcd.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_rgb_jl_lcd.c$(DependSuffix) -MM "../device/tft_lcd/lcd_rgb_jl_lcd.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_jl_lcd.c$(PreprocessSuffix): ../device/tft_lcd/lcd_rgb_jl_lcd.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_rgb_jl_lcd.c$(PreprocessSuffix) "../device/tft_lcd/lcd_rgb_jl_lcd.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_ota5182.c$(ObjectSuffix): ../device/tft_lcd/lcd_rgb_ota5182.c $(IntermediateDirectory)/tft_lcd_lcd_rgb_ota5182.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_rgb_ota5182.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_rgb_ota5182.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_ota5182.c$(DependSuffix): ../device/tft_lcd/lcd_rgb_ota5182.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_rgb_ota5182.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_rgb_ota5182.c$(DependSuffix) -MM "../device/tft_lcd/lcd_rgb_ota5182.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_ota5182.c$(PreprocessSuffix): ../device/tft_lcd/lcd_rgb_ota5182.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_rgb_ota5182.c$(PreprocessSuffix) "../device/tft_lcd/lcd_rgb_ota5182.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_st7282.c$(ObjectSuffix): ../device/tft_lcd/lcd_rgb_st7282.c $(IntermediateDirectory)/tft_lcd_lcd_rgb_st7282.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_rgb_st7282.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_rgb_st7282.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_st7282.c$(DependSuffix): ../device/tft_lcd/lcd_rgb_st7282.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_rgb_st7282.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_rgb_st7282.c$(DependSuffix) -MM "../device/tft_lcd/lcd_rgb_st7282.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_st7282.c$(PreprocessSuffix): ../device/tft_lcd/lcd_rgb_st7282.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_rgb_st7282.c$(PreprocessSuffix) "../device/tft_lcd/lcd_rgb_st7282.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_st7701.c$(ObjectSuffix): ../device/tft_lcd/lcd_rgb_st7701.c $(IntermediateDirectory)/tft_lcd_lcd_rgb_st7701.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/device/tft_lcd/lcd_rgb_st7701.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/tft_lcd_lcd_rgb_st7701.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_st7701.c$(DependSuffix): ../device/tft_lcd/lcd_rgb_st7701.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/tft_lcd_lcd_rgb_st7701.c$(ObjectSuffix) -MF$(IntermediateDirectory)/tft_lcd_lcd_rgb_st7701.c$(DependSuffix) -MM "../device/tft_lcd/lcd_rgb_st7701.c"
+
+$(IntermediateDirectory)/tft_lcd_lcd_rgb_st7701.c$(PreprocessSuffix): ../device/tft_lcd/lcd_rgb_st7701.c
+	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/tft_lcd_lcd_rgb_st7701.c$(PreprocessSuffix) "../device/tft_lcd/lcd_rgb_st7701.c"
 
 $(IntermediateDirectory)/nvfs_nvfs.c$(ObjectSuffix): ../bwlib/nvfs/nvfs.c $(IntermediateDirectory)/nvfs_nvfs.c$(DependSuffix)
 	$(CC) $(SourceSwitch) "C:/Users/jingcheng.huang/Desktop/project/public/bwlib/nvfs/nvfs.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/nvfs_nvfs.c$(ObjectSuffix) $(IncludePath)

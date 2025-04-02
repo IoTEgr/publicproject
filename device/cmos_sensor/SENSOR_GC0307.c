@@ -579,21 +579,10 @@ static void GC0307_hvblank(u32 h,u32 v)
 
 SENSOR_OP_SECTION const Sensor_Op_t gc0307_cmd= 
 {
-	.typ = CSI_TYPE_YUV422,
-	.pixelw = 640,
-	.pixelh= 480,
-//	.pixelw = 320,
-//	.pixelh= 240,
-	.hsyn = 1,
-	.vsyn = 1,
-	.AVDD = SYS_VOL_V2_7,
-	.DVDD = SYS_VOL_V1_5,
-	.VDDIO = SYS_VOL_V2_7,
-	.colrarray = 2,//0:_RGRG_ 1:_GRGR_,2:_BGBG_,3:_GBGB_
 	.rotate_adapt = {0},
-	.hvb_adapt = {42000000,1120,0,0,0xff,25,0},
-	.mclk = 24000000,
-	.p_fun_adapt = {NULL,NULL,NULL},
+	.hvb_adapt = {0x6a,0x70,0x6a,0x70},
+	. mclk = 24000000,
+	.p_fun_adapt = {GC0307_rotate,GC0307_hvblank,NULL},
 };
 
 SENSOR_HEADER_ITEM_SECTION const Sensor_Init_t gc0307_init=
