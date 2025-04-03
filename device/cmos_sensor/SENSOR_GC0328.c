@@ -66,10 +66,10 @@ SENSOR_INIT_SECTION const unsigned char GC0328InitTable[]=
 	0x50 , 0x01, //crop mode
 	0x70 , 0x45,
 
-	0x05 , 0x00, //hb [11:8]
-	0x06 , 0xde,//0xde,//hb [7:0]
-	0x07 , 0x00,//vb [11:8]
-	0x08 , 0x24,//vb [7:0]
+	//0x05 , 0x00, //hb [11:8]
+	//0x06 , 0xde,//0xde,//hb [7:0]
+	//0x07 , 0x00,//vb [11:8]
+	//0x08 , 0x24,//vb [7:0]
 	
 	0xfe , 0x01,//
 	0x29 , 0x00,//anti-flicker ste<input type="hidden" >p [11:8]
@@ -475,7 +475,7 @@ SENSOR_OP_SECTION const Sensor_Op_t gc0328_cmd=
 	.rotate_adapt = {0},
 	.hvb_adapt = {42000000,1120,0,0,0xff,25,0},
 	.mclk = 24000000,
-	.p_fun_adapt = {GC0328_rotate,NULL,NULL},
+	.p_fun_adapt = {NULL,NULL,NULL},
 
 };
 

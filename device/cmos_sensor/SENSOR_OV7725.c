@@ -119,14 +119,18 @@ SENSOR_OP_SECTION const Sensor_Op_t ov7725_cmd=
 	.typ = CSI_TYPE_YUV422,
 	.pixelw = 640,
 	.pixelh= 480,
+//	.pixelw = 320,
+//	.pixelh= 240,
 	.hsyn = 1,
 	.vsyn = 1,
-	.rduline = 0,//
+	.AVDD = SYS_VOL_V2_7,
+	.DVDD = SYS_VOL_V1_5,
+	.VDDIO = SYS_VOL_V2_7,
 	.colrarray = 2,//0:_RGRG_ 1:_GRGR_,2:_BGBG_,3:_GBGB_
 	.rotate_adapt = {0},
-	.hvb_adapt = {0x80,0x0a,0x80,0x0a},
-	. mclk = 24000000,
-	.p_fun_adapt = {OV7725_rotate,OV7725_hvblank,NULL},
+	.hvb_adapt = {42000000,1120,0,0,0xff,25,0},
+	.mclk = 24000000,
+	.p_fun_adapt = {NULL,NULL,NULL},
 };
 
 SENSOR_HEADER_ITEM_SECTION const Sensor_Init_t ov7725_init=
